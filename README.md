@@ -32,7 +32,17 @@ leetcode-python-solutions/
 │   │   └── solution.py
 │   ├── Valid-Palindrome/
 │   │   └── solution.py
-│   └── Reverse-String/
+│   ├── Reverse-String/
+│   │   └── solution.py
+│   ├── Binary-Search/
+│   │   └── solution.py
+│   ├── Move-Zeroes/
+│   │   └── solution.py
+│   ├── Move-Element-To-End/
+│   │   └── solution.py
+│   ├── Remove-Element/
+│   │   └── solution.py
+│   └── Best-Time-to-Buy-and-Sell-Stock/
 │       └── solution.py
 ├── Medium/
 │   └── (solutions coming soon)
@@ -47,14 +57,19 @@ leetcode-python-solutions/
 
 ### Easy Level
 
-| # | Problem | Difficulty | Link |
-|---|---------|-----------|------|
-| 1 | Two Sum | Easy | [LeetCode](https://leetcode.com/problems/two-sum/) |
-| 9 | Palindrome Number | Easy | [LeetCode](https://leetcode.com/problems/palindrome-number/) |
-| 14 | Longest Common Prefix | Easy | [LeetCode](https://leetcode.com/problems/longest-common-prefix/) |
-| 20 | Valid Parentheses | Easy | [LeetCode](https://leetcode.com/problems/valid-parentheses/) |
-| 125 | Valid Palindrome | Easy | [LeetCode](https://leetcode.com/problems/valid-palindrome/) |
-| 344 | Reverse String | Easy | [LeetCode](https://leetcode.com/problems/reverse-string/) |
+| # | Problem | Difficulty | Link | Status |
+|---|---------|-----------|------|--------|
+| 1 | Two Sum | Easy | [LeetCode](https://leetcode.com/problems/two-sum/) | ✅ |
+| 9 | Palindrome Number | Easy | [LeetCode](https://leetcode.com/problems/palindrome-number/) | ✅ |
+| 14 | Longest Common Prefix | Easy | [LeetCode](https://leetcode.com/problems/longest-common-prefix/) | ✅ |
+| 20 | Valid Parentheses | Easy | [LeetCode](https://leetcode.com/problems/valid-parentheses/) | ✅ |
+| 27 | Remove Element | Easy | [LeetCode](https://leetcode.com/problems/remove-element/) | ✅ |
+| 121 | Best Time to Buy and Sell Stock | Easy | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | ✅ |
+| 125 | Valid Palindrome | Easy | [LeetCode](https://leetcode.com/problems/valid-palindrome/) | ✅ |
+| 283 | Move Zeroes | Easy | [LeetCode](https://leetcode.com/problems/move-zeroes/) | ✅ |
+| 344 | Reverse String | Easy | [LeetCode](https://leetcode.com/problems/reverse-string/) | ✅ |
+| 704 | Binary Search | Easy | [LeetCode](https://leetcode.com/problems/binary-search/) | ✅ |
+| 1460 | Make Two Arrays Equal by Reversing Subarrays | Easy | [AlgoExpert](https://www.algoexpert.io/) | ✅ |
 
 ### Medium Level
 (Coming soon...)
@@ -83,6 +98,11 @@ python Easy/Valid-Parentheses/solution.py
 python Easy/Longest-Common-Prefix/solution.py
 python Easy/Valid-Palindrome/solution.py
 python Easy/Reverse-String/solution.py
+python Easy/Binary-Search/solution.py
+python Easy/Move-Zeroes/solution.py
+python Easy/Move-Element-To-End/solution.py
+python Easy/Remove-Element/solution.py
+python Easy/Best-Time-to-Buy-and-Sell-Stock/solution.py
 ```
 
 All test cases should output:
@@ -124,6 +144,30 @@ All test cases should output:
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 - **Features**: In-place modification, 15+ test cases
+
+### Binary Search (Easy)
+- **Approach**: Binary Search Algorithm
+- **Time Complexity**: O(log n)
+- **Space Complexity**: O(1)
+- **Features**: Comprehensive docstrings, 6 test cases covering edge cases
+
+### Move Zeroes (Easy)
+- **Approach**: Two-Pointer In-Place Modification
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+- **Features**: In-place modification, 6 test cases with detailed descriptions
+
+### Move Element To End (Easy)
+- **Approach**: Two-Pointer Array Manipulation
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+- **Features**: Comprehensive docstrings, 4 test cases, handles edge cases
+
+### Remove Element (Easy)
+- **Approach**: Two-Pointer Array Manipulation
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+- **Features**: In-place modification with return value, 6 test cases
 
 ## 🔍 Code Quality
 
