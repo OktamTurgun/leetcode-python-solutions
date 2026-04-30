@@ -68,6 +68,8 @@ leetcode-python-solutions/
 | 125 | Valid Palindrome | Easy | [LeetCode](https://leetcode.com/problems/valid-palindrome/) | ✅ |
 | 283 | Move Zeroes | Easy | [LeetCode](https://leetcode.com/problems/move-zeroes/) | ✅ |
 | 344 | Reverse String | Easy | [LeetCode](https://leetcode.com/problems/reverse-string/) | ✅ |
+| 21 | Merge Two Sorted Lists | Easy | [LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/) | ✅ |
+| 206 | Reverse Linked List | Easy | [LeetCode](https://leetcode.com/problems/reverse-linked-list/) | ✅ |
 | 704 | Binary Search | Easy | [LeetCode](https://leetcode.com/problems/binary-search/) | ✅ |
 | 1460 | Make Two Arrays Equal by Reversing Subarrays | Easy | [AlgoExpert](https://www.algoexpert.io/) | ✅ |
 
@@ -103,6 +105,8 @@ python Easy/Move-Zeroes/solution.py
 python Easy/Move-Element-To-End/solution.py
 python Easy/Remove-Element/solution.py
 python Easy/Best-Time-to-Buy-and-Sell-Stock/solution.py
+python Easy/Merge-Two-Sorted-Lists/solution.py
+python Easy/Reverse-Linked-List/solution.py
 ```
 
 All test cases should output:
@@ -169,6 +173,18 @@ All test cases should output:
 - **Space Complexity**: O(1)
 - **Features**: In-place modification with return value, 6 test cases
 
+### Merge Two Sorted Lists (Easy)
+- **Approach**: Linked List Merging with Dummy Node
+- **Time Complexity**: O(n + m) where n and m are list lengths
+- **Space Complexity**: O(1)
+- **Features**: Comprehensive docstrings, 7 test cases covering edge cases, helper functions for list creation/conversion, handles negative numbers and duplicates
+
+### Reverse Linked List (Easy)
+- **Approach**: Iterative Pointer Reversal
+- **Time Complexity**: O(n) where n is the number of nodes
+- **Space Complexity**: O(1) using constant extra space
+- **Features**: Comprehensive docstrings, 7 test cases covering edge cases, helper functions for list creation/conversion, handles empty lists and single elements
+
 ## 🔍 Code Quality
 
 All solutions follow best practices:
@@ -201,9 +217,40 @@ Contributions are welcome! If you have better solutions or found bugs:
 4. Push to the branch (`git push origin feature/solution-name`)
 5. Open a Pull Request
 
+## �‍💻 Author
+
+**Oktam Turgun**
+- GitHub: [@OktamTurgun](https://github.com/OktamTurgun)
+- Repository: [leetcode-python-solutions](https://github.com/OktamTurgun/leetcode-python-solutions)
+
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+The MIT License allows you to:
+- ✅ Use the code for commercial projects
+- ✅ Modify and distribute the code
+- ✅ Use the code privately
+
+**Requirements:**
+- Include the original license and copyright notice
+
+## 🔗 Useful Links
+
+### Problem Resources
+- [LeetCode Official](https://leetcode.com/) - Main platform for practice
+- [LeetCode Discuss](https://leetcode.com/discuss/) - Community discussions
+- [AlgoExpert](https://www.algoexpert.io/) - Alternative problem platform
+
+### Learning Resources
+- [Python Documentation](https://docs.python.org/3/) - Official Python docs
+- [Data Structures & Algorithms](https://en.wikipedia.org/wiki/Data_structure) - Wikipedia reference
+- [Big O Notation](https://www.bigocheatsheet.com/) - Complexity analysis cheatsheet
+- [Python Typing](https://docs.python.org/3/library/typing.html) - Type hints documentation
+
+### Related Repositories
+- [OktamTurgun/GitHub Profile](https://github.com/OktamTurgun)
+- [LeetCode Solutions](https://github.com/OktamTurgun/leetcode-python-solutions)
 
 ## 📚 Resources
 
@@ -231,6 +278,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Last Updated**: April 22, 2026
+**Last Updated**: April 30, 2026
 
 **Happy Coding!**
